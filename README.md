@@ -22,4 +22,4 @@ service autossh start
 
 
 To start tunel, go to root (or use sudo) and: service autossh start
-From now on (if everything went OK), you can log in to your external host and ssh to your machine behind the NAT using: ssh localhost -p 9999 -l <username_on_machine_behind_nat>
+From now on (if everything went OK), you can log in to your external host and ssh to your machine behind the NAT using: ssh localhost -p 9999 -l username_on_machine_behind_nat
